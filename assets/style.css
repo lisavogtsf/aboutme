@@ -1,0 +1,58 @@
+		header {
+			font-family: helvetica;
+			text-align: center;
+			background-image: url("assets/LisaHackTable.jpg");
+      		background-size: cover;
+      		color: white;
+		}
+		a {
+			color: white;
+		}
+		h1 {
+			font-size: 70px;
+			font-family: 'Iceland', cursive;
+			color: white;
+			border-radius: 50px;
+			background: rgba(200, 100, 100, 0.7);
+			margin: 0 auto;
+		}
+		img {
+			margin: 40px 0px 0px 0px;
+		}
+		ul {
+			padding: 10px;
+			background: rgba(0, 0, 0, 0.7);
+		}
+		li {
+			display: inline;
+			padding: 0px 10px 0px 10px;
+		}
+		p {
+			font-size: 22px;
+			text-align: left;
+		}
+		body {
+			text-align: center;
+			background-color: #A34747;
+			color: white;
+			font-family: helvetica;
+		}
+		article {
+			max-width: 550px;
+			padding: 20px;
+			margin: 0 auto;
+			background: rgba(0, 0, 0, 0.3);
+		}
+		@media (max-width: 550px) {
+			h1 {
+				font-size: 36px;
+			}
+			li {
+				display: block;
+				padding: 5px;
+			}
+			img {
+				padding: 0px;
+				margin: 0 auto;
+			}
+		}
