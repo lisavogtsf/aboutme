@@ -23,6 +23,12 @@ h2 {
 h3 {
 	text-align: left;
 	color: #000000;
+	margin-bottom: 0;
+}
+table, th, td {
+	border: 1px dotted #A36060;
+	background-color: #4C1A1A;
+
 }
 img {
 	margin: 40px 0px 0px 0px;
