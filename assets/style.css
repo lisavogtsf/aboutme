@@ -60,8 +60,8 @@ article {
 small {
 	opacity: 0;
 }
-.show-description small {
-  opacity: 1;
+.hideable {
+    display: none;
 }
 @media (max-width: 550px) {
 	h1 {
