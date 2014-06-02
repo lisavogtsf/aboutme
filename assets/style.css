@@ -16,6 +16,9 @@ h1 {
 	background: rgba(200, 100, 100, 0.7);
 	margin: 0 auto;
 }
+h2 {
+	color: #A34747;
+}
 img {
 	margin: 40px 0px 0px 0px;
 }
