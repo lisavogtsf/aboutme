@@ -13,7 +13,7 @@
 	// Javascript image carousel adapted from http://g-liu.com/blog/2013/08/tutorial-basic-carouselslideshow-with-javascript/
 	// direction = boolean value: true or false. If true, go to NEXT slide; otherwise go to PREV slide
 	function toggleSlide(direction) {
-	    var elements = document.getElementsByClassName("hideable"); // gets all the "slides" in our slideshow
+	    var elements = document.getElementsByClassName("hideable"); // gets all the "slides" in our slideshow, designated by class hideable
 	    // Find the li that's currently displayed
 	    var visibleID = getVisible(elements);
 	    elements[visibleID].style.display = "none"; // hide the currently visible LI
@@ -71,6 +71,7 @@
 	</article>
 
 <a id="portfolio"><h1>Portfolio</h1></a>
+<small>Portfolio displayed on a JavaScript Image Carousel, use buttons below to change images.</small>
 <!-- Javascript image carousel adapted from http://g-liu.com/blog/2013/08/tutorial-basic-carouselslideshow-with-javascript/ -->
 <ul style="list-style-type:none; margin-left:-2em;">
     <li id="1" class="hideable" style="display: block;">
@@ -95,7 +96,7 @@
 <br>
 <a id="contact"><h1>Contact Information</h1></a>
 
-<table align="center">
+<table align="center" padding="10px">
 	<tr>
 		<th>Personal</th><th>Business</th>
 	</tr>
