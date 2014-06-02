@@ -43,7 +43,7 @@ li {
 }
 p {
 	font-size: 22px;
-	text-align: center;
+	text-align: left;
 }
 body {
 	text-align: center;
@@ -58,7 +58,8 @@ article {
 	background: rgba(0, 0, 0, 0.3);
 }
 small {
-	opacity: 0;
+	text-align: center;
+	font-size: 18px;
 }
 .hideable {
     display: none;

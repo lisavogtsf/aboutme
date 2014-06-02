@@ -14,7 +14,7 @@
 	// direction = boolean value: true or false. If true, go to NEXT slide; otherwise go to PREV slide
 	function toggleSlide(direction) {
 	    var elements = document.getElementsByClassName("hideable"); // gets all the "slides" in our slideshow
-	    // Find the LI that's currently displayed
+	    // Find the li that's currently displayed
 	    var visibleID = getVisible(elements);
 	    elements[visibleID].style.display = "none"; // hide the currently visible LI
 	    if(!direction) {
@@ -69,21 +69,20 @@
 		<p>I am excited about the General Assembly Web Development Immersive because I am ready to accelerate my studies, collaborate with others and challenge myself.</p>
 		<p>I initially made a 3-page site, still on display at <a href="http://lisavogtsf.github.io/aboutme-orig/index.html">http://lisavogtsf.github.io/aboutme-orig/index.html</a>. To condense that site I have made this page quite long, but with anchor links so you can navigate within it. The <a href="#portfolio">Portfolio</a> section has examples of two web pages I have made, and the <a href="contact.html">Contact Me</a> section offers numerous ways to get in touch with me.
 	</article>
-<a id="portfolio"><h1>Portfolio</h1></a>
-Add portfolio section here--two images with brief captions and links--image carousel??
 
+<a id="portfolio"><h1>Portfolio</h1></a>
 <!-- Javascript image carousel adapted from http://g-liu.com/blog/2013/08/tutorial-basic-carouselslideshow-with-javascript/ -->
 <ul style="list-style-type:none; margin-left:-2em;">
     <li id="1" class="hideable" style="display: block;">
-    	<a href="http://gentlecomputer.com/"><img src="assets/gcc.png"></a>
-		<p>Built a Wordpress website for my computer tutoring business, including a blog.</p>
+    	<a href="http://gentlecomputer.com/"><img src="assets/gcc.png"></a><br>
+		<small>Built a Wordpress website for my computer tutoring business, including a blog.</small>
     </li>
     <li id="2" class="hideable">
-    	<a href="http://lisavogtsf.github.io/BeginnerResources-calendar/"><img src="assets/ResourceCal.png"></a>
-		<p>Created a calendar of resources for beginning computer users based on a repository in GitHub.</p>
+    	<a href="http://lisavogtsf.github.io/BeginnerResources-calendar/"><img src="assets/ResourceCal.png"></a><br>
+		<small>Created a calendar of resources for beginning computer users based on a repository in GitHub.</small>
     </li>
-    <li id="3" class="hideable"><img src="assets/LisaExplainCircle.png">
-    	<p>Pitching the Beginner Resources project at a hackathon</p>
+    <li id="3" class="hideable"><img src="assets/LisaExplainCircle.png"><br>
+    	<small>Pitching the Beginner Resources project at a hackathon.</small>
     </li>
    
 </ul>
@@ -92,9 +91,6 @@ Add portfolio section here--two images with brief captions and links--image caro
 <input type="button" value="Previous" onclick="toggleSlide(false)" />
 <input type="button" value="Next" onclick="toggleSlide(true)" />
 </form>
-
-
-
 
 <br>
 <a id="contact"><h1>Contact Information</h1></a>
