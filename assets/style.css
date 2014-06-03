@@ -61,6 +61,17 @@ small {
 	text-align: center;
 	font-size: 18px;
 }
+input[type="button"] {
+     border: 5px;
+     border-radius: 10px;
+     padding: 10px;
+     background-color: white;
+     font-weight: bold;
+     font-size: 18px;
+     color: #4C1A1A;
+     text-align: center;
+     width: 120px;
+	}
 .hideable {
     display: none;
 }
