@@ -61,6 +61,10 @@ small {
 	text-align: center;
 	font-size: 18px;
 }
+.spacer {
+	height: 40px;
+	background-color: #A34747;
+}
 input[type="button"] {
      border: 5px;
      border-radius: 10px;
