@@ -13,12 +13,12 @@
 	// toggleSlide is activated by a click on the Next or Previous buttons below the carousel
 	// direction = boolean value: true or false. If true, go to NEXT slide; otherwise go to PREV slide
 	function toggleSlide(direction) {
-		// gets all the "slides" in our slideshow, designated by class hideable
+		// gets all the "slides" or elements in our slideshow, designated by class hideable
 		var elements = document.getElementsByClassName("hideable"); 
 		// Find the li that's currently displayed
 		var visibleID = getVisible(elements);
-		// hide the currently visible LI
-		elements[visibleID].style.display = "none"; 
+		// hide the currently visible li
+		elements[visibleID].style.display = "none";
 		if(!direction) {
 			// get the previous slide
 			var makeVisible = prev(visibleID, elements.length); 
@@ -74,7 +74,7 @@
 	</header>
 
 	<article>
-		<p>Hello, General Assembly Admissions people! My name is Lisa, which rhymes with "Pisa" when you say it out loud.  I feel like I covered pretty much all of the bases in my application, but here's a little bit more about me.</p>
+		<p>Hi William and other General Assembly Admissions people! My name is Lisa, which rhymes with "Pisa" when you say it out loud.  I feel like I covered pretty much all of the bases in my application, but here's a little bit more about me.</p>
 		<p>Currently I run my own small business tutoring beginning computer users and supporting some more advanced ones. I am a San Francisco native, although technically I was born in Brazil. My undergraduate History of Science degree is from Harvard, and my masters in Women and Gender Studies is from San Francisco State University. While I had two stints as a professional web developer in the past, recently my interest in coding has been rekindled by seeing friends break into the tech industry and by getting a taste of contemporary web development myself. 
 		</p>
 		<p>I am excited about the General Assembly Web Development Immersive because I am ready to accelerate my studies, collaborate with others and challenge myself.</p>
