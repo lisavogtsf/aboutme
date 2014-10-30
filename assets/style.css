@@ -4,6 +4,7 @@ header {
 	background-image: url("LisaHackTable.jpg");
 		background-size: cover;
 		color: white;
+	height: 350px;
 }
 a {
 	color: white;
@@ -40,6 +41,8 @@ ul {
 li {
 	display: inline;
 	padding: 0px 10px 0px 10px;
+	font-weight: bold;
+	font-size: 2em;
 }
 p {
 	font-size: 22px;
@@ -56,6 +59,7 @@ article {
 	padding: 20px;
 	margin: 0 auto;
 	background: rgba(0, 0, 0, 0.3);
+	font-size: 1.2em;
 }
 small {
 	text-align: center;
@@ -64,6 +68,15 @@ small {
 .spacer {
 	height: 80px;
 	background-color: #A34747;
+}
+.header-spacer {
+	height: 275px;
+}
+.second-spacer {
+	height: 100px;
+}
+ul.links {
+
 }
 input[type="button"] {
      border: 5px;
