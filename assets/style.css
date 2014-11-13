@@ -8,9 +8,14 @@ html {
 }
 body {
 	text-align: center;
+}
+
+div {
+	margin: 0 auto;
+	padding: 20;
 	color: white;
 	font-family: helvetica;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.7);
 }
 article {
 	max-width: 550px;
@@ -37,17 +42,6 @@ h3 {
 	margin-bottom: 0;
 }
 
-ul {
-	padding: 10px;
-	border-radius: 20;
-	background: rgba(0, 0, 0, 0.7);
-}
-li {
-	display: inline;
-	padding: 0px 10px 0px 10px;
-	font-weight: bold;
-	font-size: 2em;
-}
 p {
 	font-size: 22px;
 	text-align: left;
@@ -57,30 +51,7 @@ small {
 	text-align: center;
 	font-size: 18px;
 }
-.spacer {
-	height: 80px;
-	background-color: #A34747;
-}
-.header-spacer {
-	height: 275px;
-}
-.second-spacer {
-	height: 100px;
-}
-input[type="button"] {
-     border: 5px;
-     border-radius: 10px;
-     padding: 10px;
-     background-color: white;
-     font-weight: bold;
-     font-size: 18px;
-     color: #4C1A1A;
-     text-align: center;
-     width: 120px;
-	}
-.hideable {
-    display: none;
-}
+
 @media (max-width: 550px) {
 	h1 {
 		font-size: 36px;
