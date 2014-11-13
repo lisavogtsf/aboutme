@@ -4,16 +4,20 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: black;
 }
-
-header {
-	font-family: helvetica;
+body {
 	text-align: center;
-
-		background-size: cover;
-		color: white;
-	height: 350px;
+	color: white;
+	font-family: helvetica;
+	background: rgba(0, 0, 0, 0.5);
 }
+article {
+	max-width: 550px;
+	margin: 0 auto;
+	font-size: 1.2em;
+}
+
 a {
 	color: white;
 }
@@ -21,11 +25,10 @@ h1 {
 	font-size: 70px;
 	font-family: 'Iceland', cursive;
 	color: white;
-	border-radius: 50px;
 	margin: 0 auto;
 }
 h2 {
-	text-align: center;
+	margin: 0 auto;
 	color: #FFFFFF;
 }
 h3 {
@@ -33,14 +36,10 @@ h3 {
 	color: #000000;
 	margin-bottom: 0;
 }
-table, th, td {
-	border: 1px dotted #A36060;
-	background-color: #4C1A1A;
-
-}
 
 ul {
 	padding: 10px;
+	border-radius: 20;
 	background: rgba(0, 0, 0, 0.7);
 }
 li {
@@ -53,18 +52,7 @@ p {
 	font-size: 22px;
 	text-align: left;
 }
-body {
-	text-align: center;
-	color: white;
-	font-family: helvetica;
-}
-article {
-	max-width: 550px;
-	padding: 20px;
-	margin: 0 auto;
-	background: rgba(0, 0, 0, 0.3);
-	font-size: 1.2em;
-}
+
 small {
 	text-align: center;
 	font-size: 18px;
@@ -78,9 +66,6 @@ small {
 }
 .second-spacer {
 	height: 100px;
-}
-ul.links {
-
 }
 input[type="button"] {
      border: 5px;
