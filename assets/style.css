@@ -12,22 +12,22 @@ body {
 }
 article {
 	max-width: 550px;
-	margin: 0 auto;
-	padding: 20px;
-	font-size: 1.2em;
+	margin: auto;
+	padding: 25px;
+	border-radius: 5px;
 	background-color: rgba(0,0,0,.7);
 }
 
 a {
 	color: white;
 }
-h1 {
+article h1 {
 	font-family: 'Iceland';
-}
-h3 {
-	text-align: left;
-	color: #000000;
+	font-size: 5em;
 	margin-bottom: 0;
+}
+article h2 {
+	
 }
 p {
 	/*font-size: 22px;*/
