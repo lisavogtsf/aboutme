@@ -1,7 +1,15 @@
+html { 
+  background: url(starfield-aurigae.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 header {
 	font-family: helvetica;
 	text-align: center;
-	background-image: url("starfield-aurigae.jpg");
+
 		background-size: cover;
 		color: white;
 	height: 350px;
@@ -14,11 +22,10 @@ h1 {
 	font-family: 'Iceland', cursive;
 	color: white;
 	border-radius: 50px;
-	background: rgba(200, 100, 100, 0.7);
 	margin: 0 auto;
 }
 h2 {
-	text-align: right;
+	text-align: center;
 	color: #FFFFFF;
 }
 h3 {
@@ -50,7 +57,6 @@ p {
 }
 body {
 	text-align: center;
-	background-color: #A34747;
 	color: white;
 	font-family: helvetica;
 }
