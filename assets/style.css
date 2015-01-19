@@ -1,18 +1,14 @@
 html { 
-  background: url(starfield-aurigae.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: black;
+   
 }
 body {
+	background-image: url(random_grey_variations.png);
 	text-align: center;
 	color: white;
 }
 article {
 	max-width: 550px;
-	margin: auto;
+	margin: 50px auto;
 	padding: 25px;
 	border-radius: 5px;
 	background-color: rgba(0,0,0,.7);
